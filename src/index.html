@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-    
+
+    <section class="bg-white py-12 md:py-20 lg:py-24">
+        <div class="container mx-auto px-4 max-w-5xl">
+
+            <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-black text-center mb-10 md:mb-16">Стоимость работ
+            </h2>
+
+            <div class="w-full">
+
+                <div
+                    class="hidden md:flex justify-between pb-6 border-b border-gray-100 text-gray-500 text-sm lg:text-base">
+                    <h1 class="w-1/2">Услуга</h1>
+                    <p class="w-1/4 text-right">Стоимость запчасти</p>
+                    <p class="w-1/4 text-right">Стоимость работ</p>
+                </div>
+
+                <div class="divide-y divide-gray-100">
+
+                    <div class="flex flex-col md:flex-row justify-between py-6 gap-2">
+                        <h1 class="text-base md:text-lg font-bold md:font-medium md:w-1/2">Выезд мастера</h1>
+                        <div class="flex justify-between md:w-1/2">
+                            <p class="md:hidden text-gray-500">Стоимость работ</p>
+                            <p class="text-[#A6519B] font-bold lg:ml-32 md:ml-20">Бесплатно</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row justify-between py-6 gap-2">
+                        <h1 class="text-base md:text-lg font-bold md:font-medium md:w-1/2">Диагностика стиральной машины
+                        </h1>
+                        <div class="flex justify-between md:w-1/2">
+                            <p class="md:hidden text-gray-500">Стоимость работ</p>
+                            <p class="text-[#A6519B] font-bold lg:ml-32 md:ml-20">Бесплатно</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row justify-between py-6 gap-2">
+                        <h1 class="text-base md:text-lg font-bold md:font-medium md:w-1/2">Замена блока питания</h1>
+                        <div class="flex flex-col md:flex-row md:w-1/2 gap-1 md:gap-0">
+                            <div class="flex justify-between md:w-1/2 md:justify-end md:pr-4">
+                                <p class="md:hidden text-gray-500">Стоимость запчасти</p>
+                                <p class="text-gray-900 font-medium">от 750 ₽</p>
+                            </div>
+                            <div class="flex justify-between md:w-1/2 md:justify-end">
+                                <p class="md:hidden text-gray-500">Стоимость работ</p>
+                                <p class="text-gray-900 font-bold md:font-medium">900 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row justify-between py-6 gap-2">
+                        <h1 class="text-base md:text-lg font-bold md:font-medium md:w-1/2">Замена помпы</h1>
+                        <div class="flex flex-col md:flex-row md:w-1/2 gap-1 md:gap-0">
+                            <div class="flex justify-between md:w-1/2 md:justify-end md:pr-4">
+                                <p class="md:hidden text-gray-500">Стоимость запчасти</p>
+                                <p class="text-gray-900 font-medium">от 8880 ₽</p>
+                            </div>
+                            <div class="flex justify-between md:w-1/2 md:justify-end">
+                                <p class="md:hidden text-gray-500">Стоимость работ</p>
+                                <p class="text-gray-900 font-bold md:font-medium">1900 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-10 flex justify-center">
+                    <button class="flex items-center gap-3 text-[#A6519B] font-bold hover:opacity-80 transition-all">
+                        Показать все цены
+                        <span class="text-xl rotate-45">↺</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
