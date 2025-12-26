@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-    
+
+    <div class="bg-[#A95094] text-white">
+        <div class="border-b border-white/10">
+            <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+                <div class="flex items-center gap-2 text-yellow-400 shrink-0">
+                    <span>📍</span>
+                    <span class="text-white text-sm">Москва</span>
+                </div>
+                <nav class="flex overflow-x-auto no-scrollbar gap-6 ml-6 text-sm text-white/80 whitespace-nowrap 
+                        md:overflow-visible md:gap-8 md:ml-0 md:static">
+                    <a href="#"
+                        class="hover:text-white border-b-2 border-transparent hover:border-yellow-500 md:border-none">Диагностика</a>
+                    <a href="#" class="hover:text-white">Стоимость</a>
+                    <a href="#" class="hover:text-white">Мастера</a>
+                    <a href="#" class="hover:text-white">Отзывы</a>
+                    <a href="#" class="hidden lg:block hover:text-white">Вопросы</a>
+                </nav>
+            </div>
+        </div>
+        <header>
+            <div class="container mx-auto px-4 py-4 md:py-8 flex justify-between items-center">
+
+                <div class="flex items-center gap-2 md:gap-4">
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-tr from-orange-500 to-red-500 rounded-xl flex items-center justify-center font-bold text-xl md:text-2xl">
+                        F
+                    </div>
+                    <span class="text-2xl md:text-4xl font-bold tracking-tight">Fixper</span>
+                </div>
+
+                <button class="px-5 py-2 md:px-10 md:py-4 border-2 border-yellow-500/60 rounded-xl text-yellow-400 font-bold 
+                           text-sm md:text-base hover:bg-yellow-500 hover:text-white transition-all active:scale-95">
+                    Позвонить
+                </button>
+            </div>
+        </header>
+        <main class="container mx-auto px-4 pt-10 relative overflow-hidden">
+            <div class="flex flex-col-reverse lg:flex-row md:flex-col-reverse items-center lg:items-start lg:justify-between">
+                
+                <div class="mt-12 lg:mt-0 relative w-full max-w-md md:max-w-xl">
+                    <div class="aspect-square bg-white/10 rounded-full blur-3xl absolute -bottom-10 left-0 w-full h-full -z-10">
+                    </div>
+                    <div class=""><img src="./image.png" alt=""></div>
+                </div>
+                <div class="text-center lg:text-left z-10 max-w-2xl">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+                        Ремонт стиральных машин на дому с годовой гарантией
+                    </h1>
+                    <p class="text-yellow-400 text-sm md:text-lg mb-8 max-w-md mx-auto lg:mx-0 font-medium">
+                        Отремонтируем на дому <span class="text-white/80 font-normal">или бесплатно завезем и доставим
+                            обратно из сервисного центра</span>
+                    </p>
+                </div>
+
+            </div>
+        </main>
+        <div class=" mt-10 bottom-0 left-0 w-full bg-black py-4 px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-10">
+            <div class="flex items-center gap-3 text-[10px] md:text-sm text-center">
+                <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse shrink-0"></span>
+                <p>Мы открыты и принимаем заказы до 21:00, позвоните сейчас и мы сделаем скидку 15%</p>
+            </div>
+            <a href="#" class="text-yellow-400 text-xs md:text-sm font-bold flex items-center gap-1 group">
+                Получить скидку <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
